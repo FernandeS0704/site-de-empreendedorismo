@@ -77,6 +77,7 @@ nav{
     display: inline-flex;
     padding: 8px 67px;
     background-color: #FFFFFF;
+    color: black;
 }
 
 .missao-imagem{
@@ -199,6 +200,7 @@ nav{
 
 .trabalhos-nome{
     font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 .rodapé{
@@ -208,4 +210,58 @@ nav{
 
 .rodapé-imagem{
     width: 25%;
+}
+
+.título-ofertas{
+    font-size: 220%;
+    padding: 40px 0;
+    padding-left: 110px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.móveis-ofertas{
+    background-color: #d9d9d9;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 40px;
+}
+
+.móveis-ofertas-imagem{
+    width: 20%;
+}
+
+.div-móveis-ofertas{
+    width: 73%;
+    font-size: 130%;
+    padding: 20px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.móveis-ofertas-produto{
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+
+.entregas-div{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.entregas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 24px;
+}
+
+.entregas-imagem{
+    width: 120%;
+}
+
+.entregas-nome{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 150%;
 }
